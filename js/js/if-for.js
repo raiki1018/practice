@@ -35,11 +35,11 @@
 // }
 function scoreCheck() {
     let testScore = document.getElementById('score').value;
- if (testScore >= 80) {
+  if (testScore >= 80) {
     document.write("合格です！おめでとうございます！");
- }  else if(testscore >= 70) {
+  }  else if(testscore >= 70) {
     document.write("惜しい！あと少し！");
- }  else  {
+  }  else  {
     document.write("不合格です！もう少し勉強しましょう！");
-} 
+  } 
 }
