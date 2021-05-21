@@ -6,116 +6,301 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>自己紹介サイト</title>
     <style type="text/css">
+    
     html {
-  font-size: 75%;
-  
-}
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 87.5%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  html {
-    font-size: 100%;
-  }
-}
+        overflow: auto;
+        width: auto;
+    }
+    
     body {
         background-color:#C6E3E2;
-        height: 45px;
+        height: auto;
+        margin: 0%;
+        font-size: 1.4em;
        
     }
     h1 {
-        font-size: 30px;
+        font-size: 3vw;
         font-weight: lighter;
-        margin-left: 20px;
-        margin-top: 20px;
-        margin-bottom: 0;
-        justify-content: left;
-        width: max-content;
+        margin: 0;
+        line-height: center;
+        display: flex;
+        
     }
-
+    hr {
+        margin: 0%;
+    }
     
-    .wrapper {
+    .wrapper1 {
         display: grid;
         grid-template-columns: 50%;
         grid-auto-rows: 50%;
-        
-        
-        
+        height: 60vw;
+
     }
+
     .box1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    height: 50vw;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: auto;
+        width: auto;
 
     }   
+    .circle1{
+        background-image: url(img/2021_04_aquarium.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
 
+    div.circle1 {
+        width: 40vw;
+        height: 40vw;
+        border-radius: 50%;
+        margin-top: 5vw ;
+        margin-left: 5vw ;
+        margin-right: 5vw ;
+        margin-bottom: 2vw;
+        
+    }
+
+    .circle2 {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        background-image: url(img/2021.03\ disney.JPG);
+        background-size: cover;
+        background-position: center;
+        margin: 2vw auto;
+        
+    }
+
+    .profile {
+        width: 25vw;
+        height: 22vw;
+        background-image: url(img/白画像.jpeg);
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.8;
+        text-align: center;
+       
+        
+    }
+
+    p5 {
+        font-size: 2.5vw;
+       
+    }
+    
+    .status {
+        font-size: 1.7vw;
+        text-align: left;
+        line-height: 3vw;
+        padding-left: 5vw;
+        margin-top: 0;
+    }
+    
+    .buttom {
+        font-size: medium;
+        text-align: center;
+        
+    }
     .box2 {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    background-image: url("img/2020.11\ 飛行機からの景色.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 25vw;
-    width: 45vw;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url("img/2020.11\ 飛行機からの景色.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        width: auto;
     
     
     }
 
     .box3 {
-    grid-column-start: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background-image: url("img/2019.05\ 潮干狩り.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 25vw;
-    width: 45vw;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url("img/2019.05\ 潮干狩り.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        width: auto;
     
     }
 
-    div.title {
-        height: 40px;
-        width: 50%;
+    .title {
+        height: 5vw;
+        width: 25vw;
+        font-size: 1.5vw;
         background-color: #8DE4FF;
+        background-size: 7vw;
         color:#FD0000 ;
         display: flex;
         justify-content:center ;
-        line-height: 40px;
+        line-height: 5vw;
         margin: auto;
     }
     
     .PRpoint1 {
-        width: 100vw;
-        height: 50vw;
+        width: auto;
+        height:60vw;
         background-color: #D5F38D;
         text-align: center;
-        padding-top: 10px;
-      
+        padding-top: 3vw;
+    }
+
+    h2 {
+        width: 25vw;
+        font-size: 1.5vw;
+        font-weight: lighter;
+        background-color: white;
+        justify-content:center ;
+        line-height: 4vw;
+        margin: auto;
+    }
+    .wrapper2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5vw;
+        
+        
+    }
+    .unit1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-left:auto;
+        margin-right:auto;
+        padding-top: 1vw;
+        width: 35vw;
+        height: 45vw;
+        background-image: url(img/白画像.jpeg);
+        background-position: center;
+        
+       
+    }
+
+    p1 {
+        font-size: 1.5vw;
+        margin: 0;
+    }
+    h3 {
+       
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        border: solid 1px #000;
+    }
+    .text1 {
+       
+        margin-left: 4vw;
+        margin-right: 4vw;
+        font-size: 1.8vw;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+    }
+    .unit2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        height: 42vw;
+        width:100%;
+        background-image: url(img/2016.03\ 卒業式.JPG);
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: center;
         
     }
 
-
     .PRpoint2 {
-        width: 100vw;
-        height: 50vw;
+        width: auto;
+        height: 60vw;
         background-color: #CEC9EF;
+        text-align: center;
+        padding-top: 10px;
+    }
+   
 
+    .wrapper3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
+    .unit3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        height: 60vw;
+        width:100%;
+        background-image: url(img/1046886.jpg);
+        background-repeat: no-repeat;
+        background-size: 65%;
+        background-position: center;
+        width: auto;
+    }
+    
+    .unit4 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin: auto;
+        padding-top: 1vw;
+        height: 45vw;
+        width:35vw;
+        padding-top: 2vw;
+        background-image: url(img/白画像.jpeg);
+        background-position: center;
+        
+    }
+
+    p3 {
+        font-size: 1.5vw;
+        margin: 0;
+    }
+    h4 {
+        margin-bottom: 2vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        border: solid 1px #000;
+    }
+    .text2 {
+        margin-top: 2vw;
+        margin-left: 4.5vw;
+        margin-right: 4.5vw;
+        font-size: 1.8vw;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+    }
     </style>
 
 </head>
 <body>
     <h1>自己紹介サイト</h1>
     <hr color="blue"></hr>
-    <div class="wrapper">
+    <div class="wrapper1">
         <div class="box1">
             <div class="title">ShortProfile</div>
+                <div class="circle1">
+                    <div class="circle2"></div>
+                    <div class="profile">
+                        <p5>名前：徳永頼紀</p5>
+                            <ul class="status">
+                                <li>年齢：23</li>
+                                <li>出身：福岡</li>
+                                <li>趣味：旅行、写真etc..</li>
+                                <li>行きたいところ：北海道</li>
+                            </ul>
+                            
+                    </div>
+                </div>
+                    <div class="buttom"><input 
+                        type ="button"
+                        value="自己PRはこちら" 
+                        onclick="Scrooltotop()">
+                    </div>
         </div>
         <div class="box2">
         </div>
@@ -123,13 +308,65 @@
     </div>
 
     <div class ="PRpoint1">
-    <p1>自己PR</p1>
-        
+        <h2 id="target">自己PR</h2>
+        <div class="wrapper2">
+            <div class="unit1">
+            <p1>自己PRポイント①</p1>
+            <h3>周りに溶け込みやすい</h3>
+                <div class="text1">
+                    <p2>
+                        　転校や知り合いがいない学校へ進学することが多かったのですが、
+                    共通の話題探しや興味のある話に食いつくことが得意なので、
+                    すぐに友達ができました。
+                  
+
+                    　また、それに伴う引っ越しで生活する環境や文化が変わっても、
+                    すばやく順応していたので、切り替えの早さと合わせて不自由な状態を
+                    すぐさま改善できます。
+                    </p2>
+                </div>
+            </div>
+
+            <div class="unit2">
+            
+            </div>
+        </div>
+
     </div>
 
-    <div class ="PRpoint2">   
+    <div class ="PRpoint2"> 
+        <div class="wrapper3">
+            <div class="unit3">
+            </div>
+
+            <div class="unit4">
+                <p3>自己PRポイント②</p3>
+            <h4>情報を取り入れる速さ</h4>
+                <div class="text2">
+                    <p4>
+                        　新しいものや技術が好きなので、
+                        気になったらすぐ調べて、様々な情報を仕入れることができます。
+　                      また、大学時代に旅行系の部活に所属しており、
+                        その中で日程や宿の確保、旅のしおり作成といった経験から、
+                        条件に合った事柄を調べたり提案することも得意です。
+                    </p4>
+                </div>
+            </div>
+        </div>
+    
     </div>
 
+    <script>
+        'use strict';
+        var element = document.getElementById("target");
+        var rect = element.getBoundingClientRect();
+        var position = rect.top;
+
+        function Scrooltotop() {
+            scrollTo(0,position);
+        }
+            
+    </script>
 
 </body>
 </html>
